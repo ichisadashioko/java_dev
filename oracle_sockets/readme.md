@@ -8,7 +8,7 @@ In client-server applications, the server provides some service, such as process
 
 TCP provides a reliable, point-to-point communication channel that client-server applications on the Internet use to communicate with each other. To communicate over TCP, a client program and a server program establish a connection to one another. Each program binds a socket to its end of the connection. To communicate, the client and the server each reads from and writes to the socket bound to the connection.
 
-# What Is a Socket?
+# [What Is a Socket?](./definition.md)
 
 A socket is one end-point of a two-way communication link between two programs running on the network. Socket classes are used to represent the connection between a client program and a server program. The java.net packet provides two classes - Socket and ServerSocket - that implement the client side of the connection and the server side of the connection, respectively.
 
