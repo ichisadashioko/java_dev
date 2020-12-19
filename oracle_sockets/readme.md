@@ -12,7 +12,7 @@ TCP provides a reliable, point-to-point communication channel that client-server
 
 A socket is one end-point of a two-way communication link between two programs running on the network. Socket classes are used to represent the connection between a client program and a server program. The java.net packet provides two classes - Socket and ServerSocket - that implement the client side of the connection and the server side of the connection, respectively.
 
-# Reading from and Writing to a Socket
+# [Reading from and Writing to a Socket](./readingWriting.md)
 
 This page contains a small example that illustrates how a client program can read from and write to a socket.
 
